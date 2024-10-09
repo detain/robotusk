@@ -1,0 +1,25 @@
+{
+    "name": "detain/robotusk",
+    "description": "PHP AI test project",
+    "type": "project",
+    "license": "GPL-3",
+    "autoload": {
+        "psr-4": {
+            "Detain\\Robotusk\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Joe Huss",
+            "email": "detain@interserver.net"
+        }
+    ],
+    "require": {
+        "theodo-group/llphant": "dev-main"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}
