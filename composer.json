@@ -15,7 +15,12 @@
         }
     ],
     "require": {
-        "theodo-group/llphant": "dev-main"
+        "theodo-group/llphant": "dev-main",
+        "cognesy/instructor-php": "dev-main",
+        "codewithkyrian/chromadb-php": "*"
+    },
+    "suggest": {
+        "hkulekci/qdrant": "*"
     },
     "config": {
         "allow-plugins": {
